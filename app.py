@@ -23,11 +23,11 @@ def divide(a, b):
 def calculate(operation, num1, num2):
     """Perform calculation based on operation"""
     if operation == 'add':
-        result = add(num1,num2)
+        result = add(num1, num2)
     elif operation == 'subtract':
         result = subtract(num1, num2)
     elif operation == 'multiply':
-        result = multiply(num1,num2)
+        result = multiply(num1, num2)
     elif operation == 'divide':
         result = divide(num1, num2)
     else:
